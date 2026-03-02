@@ -17,17 +17,18 @@ body {
 .cards-container {
     display: flex;
     flex-direction: row;
-    gap: 24px;
+    gap: 32px;
     flex-wrap: nowrap;
     justify-content: center;
     align-items: flex-start;
 }
 
 .card {
-    background-color: #f2f1ed;
+    background-color: #dcdbd9;
     border-radius: 12px;
-    padding: 40px 32px;
+    padding: 16px;
     width: 320px;
+    min-height: 360px;
     flex-shrink: 0;
 }
 
